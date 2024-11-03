@@ -1,0 +1,11 @@
+<!-- templates/categories/category_tree.html -->
+{% if subcategories %}
+    <ul>
+        {% for subcategory in subcategories %}
+            <li>
+                <a href="{% url 'category_detail' subcategory.id %}">{{ subcategory.name }} ({{ subcategory.products.count }})</a>
+                {% include "category_tree.html" with subcategories=subcategory.children.all %}
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}

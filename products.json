@@ -1,0 +1,102 @@
+[
+    {
+        "model": "main.product",
+        "pk": 1,
+        "fields": {
+            "name": "MacBook Pro",
+            "category": 4,
+            "price": "2500.00",
+            "quantity": 10
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 2,
+        "fields": {
+            "name": "Dell XPS 15",
+            "category": 4,
+            "price": "2000.00",
+            "quantity": 5
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 3,
+        "fields": {
+            "name": "iPhone 14",
+            "category": 3,
+            "price": "999.00",
+            "quantity": 20
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 4,
+        "fields": {
+            "name": "Samsung Galaxy S22",
+            "category": 3,
+            "price": "899.00",
+            "quantity": 15
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 5,
+        "fields": {
+            "name": "HP Desktop",
+            "category": 5,
+            "price": "800.00",
+            "quantity": 8
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 6,
+        "fields": {
+            "name": "LG Refrigerator",
+            "category": 7,
+            "price": "1500.00",
+            "quantity": 3
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 7,
+        "fields": {
+            "name": "Sony 4K TV",
+            "category": 8,
+            "price": "1200.00",
+            "quantity": 7
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 8,
+        "fields": {
+            "name": "Apple Watch",
+            "category": 3,
+            "price": "399.00",
+            "quantity": 25
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 9,
+        "fields": {
+            "name": "Blender",
+            "category": 7,
+            "price": "150.00",
+            "quantity": 30
+        }
+    },
+    {
+        "model": "main.product",
+        "pk": 10,
+        "fields": {
+            "name": "Asus ZenBook",
+            "category": 4,
+            "price": "1800.00",
+            "quantity": 6
+        }
+    }
+]
